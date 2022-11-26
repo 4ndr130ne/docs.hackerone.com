@@ -3,10 +3,12 @@ title: "Supported Integrations"
 path: "/programs/supported-integrations.html"
 id: "programs/supported-integrations"
 ---
-HackerOne integrates with many issue tracking tools. The integration ensures that the HackerOne platform fits into your existing security workflow with minimal friction. Integrating with one of these services will enable you to push report submissions into your preferred systems. You can set up multiple issue tracker integrations as well as a Slack integration.  
+
+HackerOne integrates with many issue tracking tools. The integration ensures that the HackerOne platform fits into your existing security workflow with minimal friction. Integrating with one of these services will enable you to push report submissions into your preferred systems. You can set up multiple issue tracker integrations as well as a Slack integration.
 
 HackerOne currently supports these integrations:
->Note: An asterisk(*) indicates the integration is available for Enterprise customers only.
+
+> **Note**: An asterisk(\*\) indicates the integration is available for Enterprise customers only.
 
 <div class="int-button-container">
   <a class="integration-button" href="assembla-integration.html">
@@ -102,21 +104,27 @@ HackerOne currently supports these integrations:
     </div>
     <div class="logo-text">Kenna Security</div>
   </a>
+  <a class="integration-button" href="linear-integration.html">
+    <div class="logo">
+      <img src="./images/linear-dark-logo.png" />
+    </div>
+    <div class="logo-text">Linear</div>
+  </a>
   <a class="integration-button" href="mantisbt-integration.html">
     <div class="logo">
       <img src="./images/mantisbt-logo.png" />
     </div>
     <div class="logo-text">MantisBT</div>
   </a>
+</div>
+
+<div class="int-button-container">
   <a class="integration-button" href="microsoft-teams.html">
     <div class="logo">
       <img src="./images/microsoft_teams_logo.png" />
     </div>
     <div class="logo-text">Microsoft Teams*</div>
   </a>
-</div>
-
-<div class="int-button-container">
   <a class="integration-button" href="otrs-integration.html">
     <div class="logo">
       <img src="./images/otrs_logo.png" />
@@ -135,20 +143,26 @@ HackerOne currently supports these integrations:
     </div>
     <div class="logo-text">Phabricator</div>
   </a>
+</div>
+
+<div class="int-button-container">
   <a class="integration-button" href="redmine-integration.html">
     <div class="logo">
       <img src="./images/redmine_logo.png" />
     </div>
     <div class="logo-text">Redmine</div>
   </a>
-</div>
-
-<div class="int-button-container">
   <a class="integration-button" href="servicenow-integration.html">
     <div class="logo">
       <img src="./images/servicenow_logo.png" />
     </div>
     <div class="logo-text">ServiceNow*</div>
+  </a>
+  <a class="integration-button" href="https://support.securityscorecard.com/hc/en-us/articles/4403224402459-HackerOne-App">
+    <div class="logo">
+      <img src="./images/securityscorecard-logo.png" />
+    </div>
+    <div class="logo-text">Security Scorecard</div>
   </a>
   <a class="integration-button" href="slack-integration.html">
     <div class="logo">
@@ -156,6 +170,8 @@ HackerOne currently supports these integrations:
     </div>
     <div class="logo-text">Slack</div>
   </a>
+</div>
+<div class="int-button-container">
   <a class="integration-button" href="splunk-integration.html">
     <div class="logo">
       <img src="./images/splunk_logo.png" />
@@ -168,15 +184,21 @@ HackerOne currently supports these integrations:
     </div>
     <div class="logo-text">Sumo Logic*</div>
   </a>
-</div>
-
-<div class="int-button-container">
   <a class="integration-button" href="trac-integration.html">
     <div class="logo">
       <img src="./images/trac_logo.png" />
     </div>
     <div class="logo-text">Trac</div>
   </a>
+  <a class="integration-button" href="https://help.vulcancyber.com/en/articles/4717420-hackerone-connector">
+    <div class="logo">
+      <img src="./images/vulcan-logo.png" />
+    </div>
+    <div class="logo-text">Vulcan</div>
+  </a>
+</div>
+
+<div class="int-button-container">
   <a class="integration-button" href="zendesk-integration.html">
     <div class="logo">
       <img src="./images/zendesk_logo.png" />
@@ -190,7 +212,9 @@ HackerOne currently supports these integrations:
 Don't see your issue tracker listed here? [Let us know](https://support.hackerone.com/hc/en-us/requests/new) to get that added for you.
 
 ### Using Multiple Integrations
+
 You can set up multiple integrations with HackerOne. To select which issue tracker you want to escalate the HackerOne report to:
+
 1. Change the action picker to **Change state > Triaged** in your report on HackerOne.
 2. Click **Add reference to issue tracker**.
 
@@ -202,5 +226,5 @@ You can set up multiple integrations with HackerOne. To select which issue track
 
 4. Click **Generate escalation**. You'll be taken to your integration account where the report will be pre-populated.
 5. Submit the issue to create the report in your integrated issue tracker.
-6. Copy the report issue number in your issue tracker and paste it in the **Ref ID** field in HackerOne.   
+6. Copy the report issue number in your issue tracker and paste it in the **Ref ID** field in HackerOne.
 7. Click **Create** to create a direct reference link to the issue in your integrated issue tracker.
